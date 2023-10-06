@@ -7,7 +7,7 @@ contenido = gets.chomp
 # Verifica si el archivo existe y decide si se sobrescribe o se agrega contenido
 if File.exist?(nombre_archivo)
   puts "El archivo #{nombre_archivo} ya existe."
-  # Escribe o agrega el contenido al archivo
+  # Escribe y agrega el contenido al archivo
   puts "deseas sobreescribir (s) o agregar contenido (a)"
   sobreescribir_agregar = gets.chomp
 
